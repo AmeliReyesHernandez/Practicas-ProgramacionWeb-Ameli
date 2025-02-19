@@ -9,8 +9,24 @@ th,td{
 }
 
 th{
-    background-color: azure;
+    background-color: rgb(59, 159, 159);
 }
 h2{text-align: center;
 background-color: rgb(205, 235, 255);
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    max-width: 90%;
+    margin: auto;
+    overflow-x: auto;
+}
+/* Tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(230, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 162, 255, 0.1);
 }
