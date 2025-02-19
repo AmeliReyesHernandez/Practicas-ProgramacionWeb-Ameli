@@ -5,9 +5,12 @@ table{
 th,td{
     border: 1px solid #dddddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 th{
     background-color: azure;
+}
+h2{text-align: center;
+background-color: rgb(205, 235, 255);
 }
